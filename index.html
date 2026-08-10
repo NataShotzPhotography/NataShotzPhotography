@@ -1,535 +1,1000 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
 
-    <!-- MOBILE FIRST -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
 
-    <!-- SEO -->
-    <title>Nata Shotz Photography | Rhode Island Photographer</title>
+    <!-- =====================================================
+         SEO
+    ====================================================== -->
+
+    <title>
+        Nata Shotz Photography | Rhode Island Photographer
+    </title>
 
     <meta
         name="description"
-        content="Nata Shotz Photography is a Rhode Island photographer specializing in portraits, lifestyle photography, events, automotive photography and creative photoshoots. Available throughout Rhode Island and beyond."
+        content="Nata Shotz Photography is a Rhode Island photographer capturing portraits, events, automotive photography, lifestyle sessions and creative concepts. Based in Rhode Island and available for select travel."
     >
 
     <meta
         name="keywords"
-        content="Nata Shotz Photography, Rhode Island Photographer, Providence Photographer, RI Photographer, Portrait Photographer Rhode Island, Event Photographer Rhode Island, Automotive Photographer Rhode Island"
+        content="Nata Shotz Photography, Rhode Island photographer, Providence photographer, RI photographer, portraits Rhode Island, automotive photographer Rhode Island, event photographer Rhode Island"
     >
 
-    <meta name="author" content="Nata Shotz Photography">
-    <meta name="theme-color" content="#0a0a0a">
+    <meta
+        name="author"
+        content="Nata Shotz Photography"
+    >
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Nata Shotz Photography | Rhode Island Photographer">
-    <meta property="og:description" content="Photography built around moments, movement and stories worth remembering.">
-    <meta property="og:type" content="website">
+    <meta
+        name="theme-color"
+        content="#070707"
+    >
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- =====================================================
+         SOCIAL PREVIEW
+    ====================================================== -->
+
+    <meta
+        property="og:title"
+        content="Nata Shotz Photography | Rhode Island Photographer"
+    >
+
+    <meta
+        property="og:description"
+        content="Real moments. Creative vision. Photography worth remembering."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap"
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap"
         rel="stylesheet"
     >
 
+
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
 
 <body>
 
-    <!-- =========================
-         PAGE LOADER
-    ========================== -->
-    <div class="page-loader" id="pageLoader">
 
-        <div class="loader-inner">
+<!-- =========================================================
+     PAGE LOADER
+========================================================= -->
 
-            <div class="loader-mark">
-                NS
-            </div>
+<div
+    class="page-loader"
+    id="pageLoader"
+>
 
-            <div class="loader-line">
-                <span></span>
-            </div>
+    <div class="loader-inner">
 
-            <p>NATA SHOTZ PHOTOGRAPHY</p>
+        <img
+            src="Natashotz letters logo.png"
+            alt="Nata Shotz Photography"
+            class="loader-logo"
+        >
+
+        <div class="loader-line">
+            <span></span>
+        </div>
+
+        <p>
+            RHODE ISLAND PHOTOGRAPHER
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     DESKTOP CURSOR
+========================================================= -->
+
+<div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header
+    class="site-header"
+    id="siteHeader"
+>
+
+    <div class="header-inner">
+
+
+        <!-- LEFT NAV -->
+
+        <nav
+            class="desktop-nav nav-left"
+            aria-label="Primary Navigation"
+        >
+
+            <a
+                href="index.html"
+                class="active-nav"
+            >
+                HOME
+            </a>
+
+            <a href="our-story.html">
+                OUR STORY
+            </a>
+
+            <a href="services.html">
+                SERVICES
+            </a>
+
+        </nav>
+
+
+        <!-- LOGO -->
+
+        <a
+            href="index.html"
+            class="header-logo"
+            aria-label="Nata Shotz Photography Home"
+        >
+
+            <img
+                src="Natashotz letters logo.png"
+                alt="Nata Shotz Photography"
+                class="header-logo-image"
+            >
+
+        </a>
+
+
+        <!-- RIGHT NAV -->
+
+        <nav
+            class="desktop-nav nav-right"
+            aria-label="Secondary Navigation"
+        >
+
+            <a href="portfolio.html">
+                PORTFOLIO
+            </a>
+
+            <a href="contact.html">
+                CONTACT
+            </a>
+
+            <a
+                href="https://www.instagram.com/nata_shotz/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                INSTAGRAM ↗
+            </a>
+
+        </nav>
+
+
+        <!-- MOBILE MENU BUTTON -->
+
+        <button
+            class="mobile-menu-btn"
+            id="mobileMenuBtn"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MOBILE MENU
+========================================================= -->
+
+<div
+    class="mobile-menu"
+    id="mobileMenu"
+>
+
+    <div class="mobile-menu-bg"></div>
+
+
+    <div class="mobile-menu-content">
+
+        <span class="mobile-menu-label">
+            NATA SHOTZ / MENU
+        </span>
+
+
+        <nav>
+
+            <a
+                href="index.html"
+                class="mobile-link"
+            >
+                <span>01</span>
+                Home
+            </a>
+
+            <a
+                href="our-story.html"
+                class="mobile-link"
+            >
+                <span>02</span>
+                Our Story
+            </a>
+
+            <a
+                href="services.html"
+                class="mobile-link"
+            >
+                <span>03</span>
+                Services
+            </a>
+
+            <a
+                href="portfolio.html"
+                class="mobile-link"
+            >
+                <span>04</span>
+                Portfolio
+            </a>
+
+            <a
+                href="contact.html"
+                class="mobile-link"
+            >
+                <span>05</span>
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="mobile-socials">
+
+            <a
+                href="https://www.instagram.com/nata_shotz/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Instagram ↗
+            </a>
+
+            <a
+                href="https://www.tiktok.com/@palitocr"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                TikTok ↗
+            </a>
 
         </div>
 
     </div>
 
-
-    <!-- =========================
-         CURSOR EFFECT
-         Desktop only
-    ========================== -->
-    <div class="cursor-dot"></div>
-    <div class="cursor-outline"></div>
+</div>
 
 
-    <!-- =========================
-         HEADER
-    ========================== -->
-    <header class="site-header" id="siteHeader">
+<!-- =========================================================
+     MAIN
+========================================================= -->
 
-        <div class="header-inner">
-
-            <!-- LEFT NAV -->
-            <nav class="desktop-nav nav-left" aria-label="Primary navigation">
-
-                <a href="#home">HOME</a>
-
-                <a href="#about">OUR STORY</a>
-
-                <a href="#services">SERVICES</a>
-
-            </nav>
+<main>
 
 
-            <!-- CENTER LOGO - REAL NATA SHOTZ LOGO -->
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section
+    class="hero home-hero"
+    id="home"
+>
+
+
+    <!-- TEMPORARY HERO
+         REAL PHOTOGRAPH WILL REPLACE THIS LATER -->
+
+    <div class="hero-media">
+
+        <div
+            class="hero-image hero-placeholder"
+        ></div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-vignette"></div>
+
+        <div class="hero-light"></div>
+
+    </div>
+
+
+    <!-- HERO CONTENT -->
+
+    <div class="hero-content">
+
+        <p
+            class="hero-eyebrow reveal"
+            data-reveal
+        >
+            RHODE ISLAND • PORTRAITS • EVENTS • AUTOMOTIVE
+        </p>
+
+
+        <h1 class="hero-title">
+
+            <span
+                class="hero-line reveal"
+                data-reveal
+            >
+                CAPTURING
+            </span>
+
+            <span
+                class="hero-script reveal"
+                data-reveal
+            >
+                what feels
+            </span>
+
+            <span
+                class="hero-line hero-line-bottom reveal"
+                data-reveal
+            >
+                REAL.
+            </span>
+
+        </h1>
+
+
+        <p
+            class="hero-description reveal"
+            data-reveal
+        >
+            Photography created around personality,
+            emotion, movement and the moments you
+            never want to lose.
+        </p>
+
+
+        <div
+            class="hero-actions reveal"
+            data-reveal
+        >
+
             <a
-                href="#home"
-                class="header-logo"
-                aria-label="Nata Shotz Photography Home"
+                href="portfolio.html"
+                class="btn btn-light magnetic"
             >
 
-                <img
-                    src="Natashotz letters logo.png"
-                    alt="Nata Shotz Photography"
-                    class="header-logo-image"
-                >
+                <span>
+                    VIEW PORTFOLIO
+                </span>
+
+                <span class="btn-arrow">
+                    ↗
+                </span>
 
             </a>
 
 
-            <!-- RIGHT NAV -->
-            <nav class="desktop-nav nav-right" aria-label="Secondary navigation">
-
-                <a href="#portfolio">PORTFOLIO</a>
-
-                <a href="#about">ABOUT</a>
-
-                <a href="#contact">CONTACT</a>
-
-            </nav>
-
-
-            <!-- MOBILE MENU BUTTON -->
-            <button
-                class="mobile-menu-btn"
-                id="mobileMenuBtn"
-                aria-label="Open navigation menu"
-                aria-expanded="false"
+            <a
+                href="contact.html"
+                class="btn btn-outline magnetic"
             >
 
-                <span></span>
-                <span></span>
+                <span>
+                    BOOK A SESSION
+                </span>
 
-            </button>
-
-        </div>
-
-    </header>
-
-
-    <!-- =========================
-         MOBILE MENU
-    ========================== -->
-    <div class="mobile-menu" id="mobileMenu">
-
-        <div class="mobile-menu-bg"></div>
-
-        <div class="mobile-menu-content">
-
-            <span class="mobile-menu-label">
-                NAVIGATION
-            </span>
-
-            <nav>
-
-                <a href="#home" class="mobile-link">
-                    <span>01</span>
-                    Home
-                </a>
-
-                <a href="#about" class="mobile-link">
-                    <span>02</span>
-                    Our Story
-                </a>
-
-                <a href="#services" class="mobile-link">
-                    <span>03</span>
-                    Services
-                </a>
-
-                <a href="#portfolio" class="mobile-link">
-                    <span>04</span>
-                    Portfolio
-                </a>
-
-                <a href="#contact" class="mobile-link">
-                    <span>05</span>
-                    Contact
-                </a>
-
-            </nav>
-
-
-            <div class="mobile-socials">
-
-                <a
-                    href="https://www.instagram.com/nata_shotz/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Instagram
-                </a>
-
-                <a
-                    href="https://www.tiktok.com/@palitocr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    TikTok
-                </a>
-
-            </div>
+            </a>
 
         </div>
 
     </div>
 
 
-    <!-- =========================
-         MAIN CONTENT
-    ========================== -->
-    <main>
+    <div class="hero-side-text">
+        NATA SHOTZ PHOTOGRAPHY • RHODE ISLAND
+    </div>
 
 
-        <!-- =========================
-             HERO
-        ========================== -->
-        <section class="hero" id="home">
+    <div class="hero-scroll">
 
-            <!-- Temporary photo -->
-            <div class="hero-media">
+        <span>
+            DISCOVER THE STORY
+        </span>
 
-                <div class="hero-image hero-placeholder"></div>
+        <div class="scroll-line">
+            <span></span>
+        </div>
 
-                <div class="hero-overlay"></div>
+    </div>
 
-                <div class="hero-vignette"></div>
+</section>
 
-                <div class="hero-light"></div>
+
+<!-- =========================================================
+     MARQUEE
+========================================================= -->
+
+<section class="marquee-section">
+
+    <div class="marquee-track">
+
+
+        <div class="marquee-content">
+
+            <span>PORTRAITS</span>
+            <i>✦</i>
+
+            <span>EVENTS</span>
+            <i>✦</i>
+
+            <span>AUTOMOTIVE</span>
+            <i>✦</i>
+
+            <span>LIFESTYLE</span>
+            <i>✦</i>
+
+            <span>CREATIVE SESSIONS</span>
+            <i>✦</i>
+
+            <span>RHODE ISLAND</span>
+            <i>✦</i>
+
+        </div>
+
+
+        <div
+            class="marquee-content"
+            aria-hidden="true"
+        >
+
+            <span>PORTRAITS</span>
+            <i>✦</i>
+
+            <span>EVENTS</span>
+            <i>✦</i>
+
+            <span>AUTOMOTIVE</span>
+            <i>✦</i>
+
+            <span>LIFESTYLE</span>
+            <i>✦</i>
+
+            <span>CREATIVE SESSIONS</span>
+            <i>✦</i>
+
+            <span>RHODE ISLAND</span>
+            <i>✦</i>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ABOUT ME
+     SECOND SECTION
+========================================================= -->
+
+<section
+    class="home-about section"
+>
+
+
+    <div
+        class="section-number reveal"
+        data-reveal
+    >
+        01 / ABOUT ME
+    </div>
+
+
+    <div class="home-about-grid">
+
+
+        <!-- LEFT TEXT -->
+
+        <div class="home-about-heading">
+
+            <p
+                class="section-kicker reveal"
+                data-reveal
+            >
+                BEHIND THE CAMERA
+            </p>
+
+
+            <h2
+                class="large-heading reveal"
+                data-reveal
+            >
+                More than
+                <span>
+                    just a photo.
+                </span>
+            </h2>
+
+
+            <div
+                class="signature-line reveal"
+                data-reveal
+            >
+                NATA SHOTZ
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT TEXT -->
+
+        <div class="home-about-copy">
+
+            <p
+                class="large-copy reveal"
+                data-reveal
+            >
+                Nata Shotz Photography is built around
+                more than simply taking a good picture.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                Based in Rhode Island, Nata approaches
+                every session with the goal of capturing
+                personality, emotion, movement and the
+                details that make each moment feel
+                different from the last.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                Whether it is a portrait session, an
+                event, an automotive shoot or a custom
+                creative concept, every experience is
+                approached with intention and an eye
+                for images that feel natural rather
+                than forced.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                Photography should create more than
+                something that looks good on a screen.
+                The goal is to create photographs that
+                bring back a memory, an energy and a
+                feeling every time you look at them.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                Rhode Island is home, but the camera
+                does not stop at the state line.
+                Travel opportunities are considered
+                depending on the project, location,
+                schedule and overall session needs.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                Every client brings a different story
+                and every photoshoot deserves its own
+                identity. That is what makes the work
+                personal, creative and worth remembering.
+            </p>
+
+
+            <a
+                href="our-story.html"
+                class="text-link reveal"
+                data-reveal
+            >
+                DISCOVER THE FULL STORY
+
+                <span>
+                    ↗
+                </span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- ABOUT VISUAL -->
+
+    <div
+        class="about-feature-layout reveal"
+        data-reveal
+    >
+
+
+        <div class="about-feature-image">
+
+            <div
+                class="photo-placeholder about-photo-main"
+            >
+
+                <span>
+                    NATA PHOTO COMING SOON
+                </span>
 
             </div>
 
-
-            <div class="hero-content">
-
-                <p
-                    class="hero-eyebrow reveal"
-                    data-reveal
-                >
-                    RHODE ISLAND PHOTOGRAPHER
-                </p>
+        </div>
 
 
-                <div class="hero-title-wrap">
+        <div class="about-logo-card tilt-card">
 
-                    <h1 class="hero-title">
+            <img
+                src="nata shotz logo red.png"
+                alt="Nata Shotz Photography Logo"
+            >
 
-                        <span
-                            class="hero-line reveal"
-                            data-reveal
-                        >
-                            MOMENTS
-                        </span>
-
-                        <span
-                            class="hero-script reveal"
-                            data-reveal
-                        >
-                            become
-                        </span>
-
-                        <span
-                            class="hero-line hero-line-bottom reveal"
-                            data-reveal
-                        >
-                            TIMELESS
-                        </span>
-
-                    </h1>
-
-                </div>
+        </div>
 
 
-                <p
-                    class="hero-description reveal"
-                    data-reveal
-                >
-                    Photography that turns real moments,
-                    movement and emotion into something
-                    worth remembering.
-                </p>
+        <span class="about-feature-number">
+            401
+        </span>
 
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     STATEMENT
+========================================================= -->
+
+<section class="statement-section">
+
+    <div class="statement-bg"></div>
+
+
+    <div class="statement-content">
+
+        <p
+            class="section-kicker light reveal"
+            data-reveal
+        >
+            CREATED WITH INTENTION
+        </p>
+
+
+        <h2
+            class="statement-title reveal"
+            data-reveal
+        >
+
+            YOUR MOMENT.
+
+            <br>
+
+            <span>
+                YOUR ENERGY.
+            </span>
+
+            <br>
+
+            YOUR STORY.
+
+        </h2>
+
+
+        <p
+            class="statement-description reveal"
+            data-reveal
+        >
+            The camera is only part of the experience.
+            The rest comes from understanding the person,
+            the place, the movement and the story happening
+            in front of it.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FEATURED WORK
+========================================================= -->
+
+<section class="home-work section">
+
+
+    <div
+        class="section-number reveal"
+        data-reveal
+    >
+        02 / FEATURED WORK
+    </div>
+
+
+    <div class="home-work-heading">
+
+        <p
+            class="section-kicker reveal"
+            data-reveal
+        >
+            SELECTED PHOTOGRAPHY
+        </p>
+
+
+        <h2
+            class="portfolio-heading reveal"
+            data-reveal
+        >
+            Stories made
+            <span>
+                visual.
+            </span>
+        </h2>
+
+    </div>
+
+
+    <div class="featured-work-grid">
+
+
+        <!-- PORTRAIT -->
+
+        <a
+            href="portfolio.html"
+            class="featured-work-card featured-tall reveal"
+            data-reveal
+        >
+
+            <div class="featured-work-image">
 
                 <div
-                    class="hero-actions reveal"
-                    data-reveal
+                    class="photo-placeholder dark"
                 >
-
-                    <a href="#portfolio" class="btn btn-light magnetic">
-                        <span>VIEW THE WORK</span>
-                        <span class="btn-arrow">↗</span>
-                    </a>
-
-                    <a href="#contact" class="btn btn-outline magnetic">
-                        <span>BOOK A SESSION</span>
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div class="hero-side-text">
-                NATA SHOTZ • RHODE ISLAND • PHOTOGRAPHY
-            </div>
-
-
-            <div class="hero-scroll">
-
-                <span>SCROLL TO DISCOVER</span>
-
-                <div class="scroll-line">
-                    <span></span>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             INTRO / MARQUEE
-        ========================== -->
-        <section class="marquee-section">
-
-            <div class="marquee-track">
-
-                <div class="marquee-content">
-
-                    <span>PORTRAITS</span>
-                    <i>✦</i>
-
-                    <span>LIFESTYLE</span>
-                    <i>✦</i>
-
-                    <span>AUTOMOTIVE</span>
-                    <i>✦</i>
-
-                    <span>EVENTS</span>
-                    <i>✦</i>
-
-                    <span>CREATIVE</span>
-                    <i>✦</i>
-
-                    <span>RHODE ISLAND</span>
-                    <i>✦</i>
-
-                </div>
-
-
-                <div
-                    class="marquee-content"
-                    aria-hidden="true"
-                >
-
-                    <span>PORTRAITS</span>
-                    <i>✦</i>
-
-                    <span>LIFESTYLE</span>
-                    <i>✦</i>
-
-                    <span>AUTOMOTIVE</span>
-                    <i>✦</i>
-
-                    <span>EVENTS</span>
-                    <i>✦</i>
-
-                    <span>CREATIVE</span>
-                    <i>✦</i>
-
-                    <span>RHODE ISLAND</span>
-                    <i>✦</i>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             ABOUT
-        ========================== -->
-        <section class="about section" id="about">
-
-            <div class="section-number reveal" data-reveal>
-                01 / THE STORY
-            </div>
-
-
-            <div class="about-grid">
-
-
-                <div class="about-heading">
-
-                    <p
-                        class="section-kicker reveal"
-                        data-reveal
-                    >
-                        BEHIND THE CAMERA
-                    </p>
-
-
-                    <h2
-                        class="large-heading reveal"
-                        data-reveal
-                    >
-                        More than
-                        <span>just a photo.</span>
-                    </h2>
-
-                </div>
-
-
-                <div class="about-copy">
-
-                    <p
-                        class="large-copy reveal"
-                        data-reveal
-                    >
-                        Every session is built around
-                        capturing something real —
-                        your personality, your energy
-                        and the moments you never want
-                        to forget.
-                    </p>
-
-
-                    <p
-                        class="body-copy reveal"
-                        data-reveal
-                    >
-                        Nata Shotz Photography is based
-                        in Rhode Island and available for
-                        photoshoots throughout the state
-                        and beyond.
-                    </p>
-
-
-                    <p
-                        class="body-copy reveal"
-                        data-reveal
-                    >
-                        Distance, travel and session
-                        requirements may affect pricing,
-                        but whenever the opportunity makes
-                        sense, Nata Shotz is ready to make
-                        the shot happen.
-                    </p>
-
-
-                    <a
-                        href="#contact"
-                        class="text-link reveal"
-                        data-reveal
-                    >
-                        LET'S CREATE SOMETHING
-                        <span>↗</span>
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div class="about-visual reveal" data-reveal>
-
-                <div class="about-card tilt-card">
-
-                    <div class="photo-placeholder">
-                        <span>PHOTO COMING SOON</span>
-                    </div>
-
-                    <div class="card-number">
-                        401
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             FEATURE STATEMENT
-        ========================== -->
-        <section class="statement-section">
-
-            <div class="statement-bg"></div>
-
-            <div class="statement-content">
-
-                <p
-                    class="section-kicker light reveal"
-                    data-reveal
-                >
-                    THE NATA SHOTZ EXPERIENCE
-                </p>
-
-
-                <h2
-                    class="statement-title reveal"
-                    data-reveal
-                >
-                    YOUR STORY.
-                    <br>
 
                     <span>
-                        YOUR MOMENT.
+                        PORTRAIT PHOTO
                     </span>
 
-                    <br>
-
-                    OUR VISION.
-                </h2>
+                </div>
 
             </div>
 
-        </section>
+
+            <div class="featured-work-info">
+
+                <span>
+                    01
+                </span>
+
+                <h3>
+                    Portraits
+                </h3>
+
+                <p>
+                    Personal portraits built around
+                    confidence, personality and natural
+                    expression.
+                </p>
+
+                <span class="featured-arrow">
+                    ↗
+                </span>
+
+            </div>
+
+        </a>
 
 
-        <!-- =========================
-             SERVICES
-        ========================== -->
-        <section class="services section" id="services">
+        <!-- AUTOMOTIVE -->
 
-            <div class="section-number reveal" data-reveal>
-                02 / SERVICES
+        <a
+            href="portfolio.html"
+            class="featured-work-card reveal"
+            data-reveal
+        >
+
+            <div class="featured-work-image">
+
+                <div
+                    class="photo-placeholder red"
+                >
+
+                    <span>
+                        AUTOMOTIVE PHOTO
+                    </span>
+
+                </div>
+
             </div>
 
 
-            <div class="services-header">
+            <div class="featured-work-info">
+
+                <span>
+                    02
+                </span>
+
+                <h3>
+                    Automotive
+                </h3>
+
+                <p>
+                    Creative angles, detail and movement
+                    designed to make every vehicle feel
+                    intentional.
+                </p>
+
+                <span class="featured-arrow">
+                    ↗
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <!-- EVENT -->
+
+        <a
+            href="portfolio.html"
+            class="featured-work-card reveal"
+            data-reveal
+        >
+
+            <div class="featured-work-image">
+
+                <div
+                    class="photo-placeholder"
+                >
+
+                    <span>
+                        EVENT PHOTO
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="featured-work-info">
+
+                <span>
+                    03
+                </span>
+
+                <h3>
+                    Events
+                </h3>
+
+                <p>
+                    The reactions, details and candid
+                    moments that make the day worth
+                    remembering.
+                </p>
+
+                <span class="featured-arrow">
+                    ↗
+                </span>
+
+            </div>
+
+        </a>
+
+    </div>
+
+
+    <div
+        class="center-link reveal"
+        data-reveal
+    >
+
+        <a
+            href="portfolio.html"
+            class="btn btn-dark magnetic"
+        >
+
+            <span>
+                EXPLORE FULL PORTFOLIO
+            </span>
+
+            <span class="btn-arrow">
+                ↗
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SERVICES PREVIEW
+========================================================= -->
+
+<section class="home-services">
+
+
+    <div class="home-services-inner section">
+
+
+        <div
+            class="section-number reveal"
+            data-reveal
+        >
+            03 / SERVICES
+        </div>
+
+
+        <div class="services-intro-grid">
+
+
+            <div>
 
                 <p
                     class="section-kicker reveal"
@@ -543,509 +1008,51 @@
                     class="large-heading reveal"
                     data-reveal
                 >
-                    Every frame
-                    <span>has a purpose.</span>
+                    Different stories.
+                    <span>
+                        Same intention.
+                    </span>
                 </h2>
 
             </div>
 
 
-            <div class="services-list">
-
-
-                <article class="service-row reveal" data-reveal>
-
-                    <div class="service-number">
-                        01
-                    </div>
-
-                    <h3>
-                        Portraits
-                    </h3>
-
-                    <p>
-                        Individual portraits, lifestyle
-                        photography, graduation sessions
-                        and personal branding.
-                    </p>
-
-                    <span class="service-arrow">
-                        ↗
-                    </span>
-
-                </article>
-
-
-                <article class="service-row reveal" data-reveal>
-
-                    <div class="service-number">
-                        02
-                    </div>
-
-                    <h3>
-                        Events
-                    </h3>
-
-                    <p>
-                        Birthdays, celebrations,
-                        gatherings and unforgettable
-                        moments documented naturally.
-                    </p>
-
-                    <span class="service-arrow">
-                        ↗
-                    </span>
-
-                </article>
-
-
-                <article class="service-row reveal" data-reveal>
-
-                    <div class="service-number">
-                        03
-                    </div>
-
-                    <h3>
-                        Automotive
-                    </h3>
-
-                    <p>
-                        Creative automotive photography
-                        designed to make every detail,
-                        angle and finish stand out.
-                    </p>
-
-                    <span class="service-arrow">
-                        ↗
-                    </span>
-
-                </article>
-
-
-                <article class="service-row reveal" data-reveal>
-
-                    <div class="service-number">
-                        04
-                    </div>
-
-                    <h3>
-                        Creative Sessions
-                    </h3>
-
-                    <p>
-                        Custom concepts, lifestyle shoots
-                        and creative sessions designed
-                        around your vision.
-                    </p>
-
-                    <span class="service-arrow">
-                        ↗
-                    </span>
-
-                </article>
-
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             PORTFOLIO
-        ========================== -->
-        <section class="portfolio" id="portfolio">
-
-            <div class="portfolio-top section">
-
-                <div
-                    class="section-number reveal"
-                    data-reveal
-                >
-                    03 / SELECTED WORK
-                </div>
-
+            <div class="services-intro-copy">
 
                 <p
-                    class="section-kicker reveal"
+                    class="body-copy reveal"
                     data-reveal
                 >
-                    PORTFOLIO
+                    No two sessions should feel exactly
+                    the same. Each shoot begins with the
+                    person, idea or moment being captured
+                    and builds outward from there.
                 </p>
 
 
-                <h2
-                    class="portfolio-heading reveal"
-                    data-reveal
-                >
-                    Moments
-                    <span>worth keeping.</span>
-                </h2>
-
-            </div>
-
-
-            <div class="portfolio-grid">
-
-
-                <article
-                    class="portfolio-item portfolio-large reveal"
-                    data-reveal
-                >
-
-                    <div class="portfolio-image">
-
-                        <div class="photo-placeholder dark">
-                            <span>PORTRAIT PHOTO</span>
-                        </div>
-
-                    </div>
-
-                    <div class="portfolio-meta">
-
-                        <span>PORTRAITS</span>
-
-                        <span>
-                            RHODE ISLAND
-                        </span>
-
-                    </div>
-
-                </article>
-
-
-                <article
-                    class="portfolio-item reveal"
-                    data-reveal
-                >
-
-                    <div class="portfolio-image">
-
-                        <div class="photo-placeholder">
-                            <span>AUTOMOTIVE PHOTO</span>
-                        </div>
-
-                    </div>
-
-                    <div class="portfolio-meta">
-
-                        <span>AUTOMOTIVE</span>
-
-                        <span>
-                            CREATIVE
-                        </span>
-
-                    </div>
-
-                </article>
-
-
-                <article
-                    class="portfolio-item reveal"
-                    data-reveal
-                >
-
-                    <div class="portfolio-image">
-
-                        <div class="photo-placeholder red">
-                            <span>EVENT PHOTO</span>
-                        </div>
-
-                    </div>
-
-                    <div class="portfolio-meta">
-
-                        <span>EVENTS</span>
-
-                        <span>
-                            STORYTELLING
-                        </span>
-
-                    </div>
-
-                </article>
-
-
-                <article
-                    class="portfolio-item portfolio-wide reveal"
-                    data-reveal
-                >
-
-                    <div class="portfolio-image">
-
-                        <div class="photo-placeholder dark">
-                            <span>CREATIVE SESSION</span>
-                        </div>
-
-                    </div>
-
-                    <div class="portfolio-meta">
-
-                        <span>CREATIVE</span>
-
-                        <span>
-                            NATA SHOTZ
-                        </span>
-
-                    </div>
-
-                </article>
-
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             RED FEATURE SECTION
-        ========================== -->
-        <section class="red-feature">
-
-            <div class="red-feature-orb orb-one"></div>
-            <div class="red-feature-orb orb-two"></div>
-
-
-            <div class="red-feature-inner">
-
                 <p
-                    class="section-kicker light reveal"
+                    class="body-copy reveal"
                     data-reveal
                 >
-                    AVAILABLE BEYOND RHODE ISLAND
-                </p>
-
-
-                <h2
-                    class="red-feature-title reveal"
-                    data-reveal
-                >
-                    HAVE A VISION?
-                    <br>
-                    LET'S MAKE IT
-                    <em>real.</em>
-                </h2>
-
-
-                <p
-                    class="red-feature-copy reveal"
-                    data-reveal
-                >
-                    Based in Rhode Island.
-                    Available to travel depending
-                    on location, availability
-                    and project requirements.
+                    Lighting, location, movement, styling
+                    and creative direction all contribute
+                    to the final result. The goal is to
+                    create photographs that feel polished
+                    without losing the natural personality
+                    behind them.
                 </p>
 
 
                 <a
-                    href="#contact"
-                    class="btn btn-light magnetic reveal"
+                    href="services.html"
+                    class="text-link reveal"
                     data-reveal
                 >
-                    <span>START YOUR SESSION</span>
-                    <span class="btn-arrow">↗</span>
-                </a>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             CONTACT
-        ========================== -->
-        <section class="contact section" id="contact">
-
-            <div class="section-number reveal" data-reveal>
-                04 / CONTACT
-            </div>
-
-
-            <div class="contact-grid">
-
-
-                <div>
-
-                    <p
-                        class="section-kicker reveal"
-                        data-reveal
-                    >
-                        LET'S WORK TOGETHER
-                    </p>
-
-
-                    <h2
-                        class="contact-heading reveal"
-                        data-reveal
-                    >
-                        Ready to
-                        <br>
-                        create
-                        <span>something?</span>
-                    </h2>
-
-                </div>
-
-
-                <div class="contact-options">
-
-
-                    <a
-                        href="mailto:natashotzphotography@gmail.com"
-                        class="contact-option reveal"
-                        data-reveal
-                    >
-
-                        <span class="contact-label">
-                            EMAIL
-                        </span>
-
-                        <strong>
-                            natashotzphotography@gmail.com
-                        </strong>
-
-                        <span class="contact-icon">
-                            ↗
-                        </span>
-
-                    </a>
-
-
-                    <a
-                        href="tel:+14012049504"
-                        class="contact-option reveal"
-                        data-reveal
-                    >
-
-                        <span class="contact-label">
-                            PHONE
-                        </span>
-
-                        <strong>
-                            +1 401 204 9504
-                        </strong>
-
-                        <span class="contact-icon">
-                            ↗
-                        </span>
-
-                    </a>
-
-
-                    <a
-                        href="https://www.instagram.com/nata_shotz/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="contact-option reveal"
-                        data-reveal
-                    >
-
-                        <span class="contact-label">
-                            INSTAGRAM
-                        </span>
-
-                        <strong>
-                            @nata_shotz
-                        </strong>
-
-                        <span class="contact-icon">
-                            ↗
-                        </span>
-
-                    </a>
-
-
-                    <a
-                        href="https://www.tiktok.com/@palitocr"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="contact-option reveal"
-                        data-reveal
-                    >
-
-                        <span class="contact-label">
-                            TIKTOK
-                        </span>
-
-                        <strong>
-                            @palitocr
-                        </strong>
-
-                        <span class="contact-icon">
-                            ↗
-                        </span>
-
-                    </a>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-    </main>
-
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-    <footer class="footer">
-
-        <div class="footer-main">
-
-            <div class="footer-logo">
-
-                <span class="footer-logo-main">
-                    NATA
-                </span>
-
-                <span class="footer-logo-script">
-                    Shotz
-                </span>
-
-                <span class="footer-logo-sub">
-                    PHOTOGRAPHY
-                </span>
-
-            </div>
-
-
-            <div class="footer-location">
-
-                <span>BASED IN</span>
-
-                <strong>
-                    RHODE ISLAND
-                </strong>
-
-                <p>
-                    Available for select travel
-                    and destination sessions.
-                </p>
-
-            </div>
-
-
-            <div class="footer-social">
-
-                <span>FOLLOW</span>
-
-                <a
-                    href="https://www.instagram.com/nata_shotz/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    INSTAGRAM ↗
-                </a>
-
-                <a
-                    href="https://www.tiktok.com/@palitocr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    TIKTOK ↗
+                    VIEW ALL SERVICES
+
+                    <span>
+                        ↗
+                    </span>
                 </a>
 
             </div>
@@ -1053,35 +1060,642 @@
         </div>
 
 
-        <div class="footer-bottom">
-
-            <p>
-                © 2026 All Rights Reserved |
-                Nata Shotz Photography |
-                Powered by
-
-                <a
-                    href="https://xaustudio.co/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="xau-link"
-                >
-                    Xau Studio Co
-                </a>
-            </p>
+        <div class="services-list">
 
 
-            <a href="#home" class="back-top">
-                BACK TO TOP ↑
+            <a
+                href="services.html"
+                class="service-row reveal"
+                data-reveal
+            >
+
+                <div class="service-number">
+                    01
+                </div>
+
+                <h3>
+                    Portraits
+                </h3>
+
+                <p>
+                    Individual portraits, lifestyle
+                    sessions, graduation photography
+                    and personal branding.
+                </p>
+
+                <span class="service-arrow">
+                    ↗
+                </span>
+
+            </a>
+
+
+            <a
+                href="services.html"
+                class="service-row reveal"
+                data-reveal
+            >
+
+                <div class="service-number">
+                    02
+                </div>
+
+                <h3>
+                    Events
+                </h3>
+
+                <p>
+                    Celebrations, birthdays, gatherings
+                    and the real moments happening between
+                    everything planned.
+                </p>
+
+                <span class="service-arrow">
+                    ↗
+                </span>
+
+            </a>
+
+
+            <a
+                href="services.html"
+                class="service-row reveal"
+                data-reveal
+            >
+
+                <div class="service-number">
+                    03
+                </div>
+
+                <h3>
+                    Automotive
+                </h3>
+
+                <p>
+                    Automotive photography centered around
+                    design, details, angles, lighting and
+                    visual personality.
+                </p>
+
+                <span class="service-arrow">
+                    ↗
+                </span>
+
+            </a>
+
+
+            <a
+                href="services.html"
+                class="service-row reveal"
+                data-reveal
+            >
+
+                <div class="service-number">
+                    04
+                </div>
+
+                <h3>
+                    Creative Sessions
+                </h3>
+
+                <p>
+                    Custom concepts and creative shoots
+                    designed around your specific idea,
+                    aesthetic or vision.
+                </p>
+
+                <span class="service-arrow">
+                    ↗
+                </span>
+
             </a>
 
         </div>
 
-    </footer>
+    </div>
+
+</section>
 
 
-    <!-- JS -->
-    <script src="script.js"></script>
+<!-- =========================================================
+     EXPERIENCE SECTION
+========================================================= -->
+
+<section class="experience-section section">
+
+
+    <div
+        class="section-number reveal"
+        data-reveal
+    >
+        04 / THE EXPERIENCE
+    </div>
+
+
+    <div class="experience-grid">
+
+
+        <div class="experience-left">
+
+            <p
+                class="section-kicker reveal"
+                data-reveal
+            >
+                WHY NATA SHOTZ
+            </p>
+
+
+            <h2
+                class="experience-heading reveal"
+                data-reveal
+            >
+                Photography
+                that feels like
+                <span>
+                    you.
+                </span>
+            </h2>
+
+        </div>
+
+
+        <div class="experience-copy">
+
+            <p
+                class="large-copy reveal"
+                data-reveal
+            >
+                A strong photograph starts long before
+                the shutter is pressed.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                The experience begins with understanding
+                what you want the photos to represent,
+                whether the goal is personal, creative,
+                professional or simply about capturing
+                a moment in your life.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                During the session, direction is available
+                when you need it without making every frame
+                feel staged. The goal is to create an
+                environment where you can move naturally
+                and feel comfortable in front of the camera.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                Every location and session is approached
+                differently. Light, background, composition,
+                wardrobe, movement and the surrounding
+                environment all influence the final story.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                The editing process continues that same
+                approach by focusing on polished images
+                that still feel authentic instead of
+                overproduced or disconnected from the
+                original moment.
+            </p>
+
+
+            <p
+                class="body-copy reveal"
+                data-reveal
+            >
+                The result is a collection built to feel
+                personal now and meaningful years later.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="experience-cards">
+
+
+        <article
+            class="experience-card tilt-card reveal"
+            data-reveal
+        >
+
+            <span>
+                01
+            </span>
+
+            <h3>
+                Intentional
+            </h3>
+
+            <p>
+                Every shoot begins with a reason,
+                an idea and a visual direction.
+            </p>
+
+        </article>
+
+
+        <article
+            class="experience-card tilt-card reveal"
+            data-reveal
+        >
+
+            <span>
+                02
+            </span>
+
+            <h3>
+                Personal
+            </h3>
+
+            <p>
+                Sessions are designed around the
+                person and story in front of the lens.
+            </p>
+
+        </article>
+
+
+        <article
+            class="experience-card tilt-card reveal"
+            data-reveal
+        >
+
+            <span>
+                03
+            </span>
+
+            <h3>
+                Flexible
+            </h3>
+
+            <p>
+                Based in Rhode Island with select
+                travel available depending on the project.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     TRAVEL / LOCATION
+========================================================= -->
+
+<section class="travel-section">
+
+
+    <div class="travel-orb travel-orb-one"></div>
+
+    <div class="travel-orb travel-orb-two"></div>
+
+
+    <div class="travel-inner">
+
+
+        <p
+            class="section-kicker light reveal"
+            data-reveal
+        >
+            RHODE ISLAND & BEYOND
+        </p>
+
+
+        <h2
+            class="travel-title reveal"
+            data-reveal
+        >
+            HOME IS RHODE ISLAND.
+            <br>
+            THE CAMERA CAN
+            <em>
+                travel.
+            </em>
+        </h2>
+
+
+        <div class="travel-copy">
+
+
+            <p
+                class="reveal"
+                data-reveal
+            >
+                Nata Shotz Photography is based in
+                Rhode Island and available throughout
+                the state for a variety of photography
+                sessions.
+            </p>
+
+
+            <p
+                class="reveal"
+                data-reveal
+            >
+                Travel outside Rhode Island may also be
+                available depending on distance, project
+                requirements, scheduling and the overall
+                details of the session.
+            </p>
+
+
+            <p
+                class="reveal"
+                data-reveal
+            >
+                Every request is considered individually,
+                so the best way to know what is possible
+                is to reach out and share what you have
+                in mind.
+            </p>
+
+
+        </div>
+
+
+        <a
+            href="contact.html"
+            class="btn btn-light magnetic reveal"
+            data-reveal
+        >
+
+            <span>
+                ASK ABOUT YOUR LOCATION
+            </span>
+
+            <span class="btn-arrow">
+                ↗
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FINAL CTA
+========================================================= -->
+
+<section class="final-cta">
+
+
+    <div class="final-cta-inner">
+
+
+        <p
+            class="section-kicker reveal"
+            data-reveal
+        >
+            YOUR NEXT SESSION
+        </p>
+
+
+        <h2
+            class="final-cta-title reveal"
+            data-reveal
+        >
+            SOME MOMENTS
+            DESERVE MORE
+            THAN A
+            <span>
+                CAMERA ROLL.
+            </span>
+        </h2>
+
+
+        <p
+            class="final-cta-copy reveal"
+            data-reveal
+        >
+            Have an idea, event, vehicle, portrait session
+            or creative concept in mind? Reach out and tell
+            Nata Shotz what you want to create.
+        </p>
+
+
+        <div
+            class="final-cta-actions reveal"
+            data-reveal
+        >
+
+            <a
+                href="contact.html"
+                class="btn btn-dark magnetic"
+            >
+                BOOK YOUR SESSION
+                <span class="btn-arrow">
+                    ↗
+                </span>
+            </a>
+
+
+            <a
+                href="tel:+14012049504"
+                class="cta-phone"
+            >
+                +1 401 204 9504
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+
+    <div class="footer-topline">
+
+        <span>
+            NATA SHOTZ PHOTOGRAPHY
+        </span>
+
+        <span>
+            RHODE ISLAND
+        </span>
+
+    </div>
+
+
+    <div class="footer-main">
+
+
+        <!-- BRAND -->
+
+        <div class="footer-brand">
+
+            <img
+                src="Nata shotz logo.png"
+                alt="Nata Shotz Photography"
+                class="footer-brand-logo"
+            >
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <div class="footer-column">
+
+            <span class="footer-label">
+                EXPLORE
+            </span>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="our-story.html">
+                Our Story
+            </a>
+
+            <a href="services.html">
+                Services
+            </a>
+
+            <a href="portfolio.html">
+                Portfolio
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+
+        <!-- CONTACT -->
+
+        <div class="footer-column">
+
+            <span class="footer-label">
+                CONTACT
+            </span>
+
+            <a
+                href="mailto:natashotzphotography@gmail.com"
+            >
+                natashotzphotography@gmail.com
+            </a>
+
+            <a href="tel:+14012049504">
+                +1 401 204 9504
+            </a>
+
+            <span class="footer-muted">
+                Rhode Island
+            </span>
+
+        </div>
+
+
+        <!-- SOCIAL -->
+
+        <div class="footer-column">
+
+            <span class="footer-label">
+                FOLLOW
+            </span>
+
+            <a
+                href="https://www.instagram.com/nata_shotz/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Instagram ↗
+            </a>
+
+            <a
+                href="https://www.tiktok.com/@palitocr"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                TikTok ↗
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-watermark">
+        NATA SHOTZ
+    </div>
+
+
+    <div class="footer-bottom">
+
+
+        <p>
+
+            © 2026 All Rights Reserved |
+            Nata Shotz Photography |
+            Powered by
+
+            <a
+                href="https://xaustudio.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="xau-link"
+            >
+                Xau Studio Co
+            </a>
+
+        </p>
+
+
+        <a
+            href="#home"
+            class="back-top"
+        >
+            BACK TO TOP ↑
+        </a>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     JS
+========================================================= -->
+
+<script src="script.js"></script>
+
 
 </body>
+
 </html>
